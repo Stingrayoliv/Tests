@@ -7,13 +7,13 @@ This is the web test automation project for testing http://the-internet.herokuap
 Tests
 Project has a test class which represents the following scenario:
 
-Hovers page:
+Hovers page: 
 
-hover each avatar and verify username text appeared underneath
-Prerequisites Software/Tools
-Java Development Kit (Java 8)
-Java Runtime Environment
-Maven [ http://maven.apache.org/ ]
-Git [ http://git-scm.com/downloads ]
-Chrome browser
-JUnit
+⋅⋅* hover each avatar and verify username text appeared underneath
+⋅⋅* Prerequisites Software/Tools
+⋅⋅* Java Development Kit (Java 8)
+⋅⋅* Java Runtime Environment
+⋅⋅* Maven [ http://maven.apache.org/ ]
+⋅⋅* Git [ http://git-scm.com/downloads ]
+⋅⋅* Chrome browser
+⋅⋅* JUnit
