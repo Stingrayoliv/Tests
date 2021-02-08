@@ -15,7 +15,7 @@ public class HoversTest {
 
     @BeforeEach
     public void initPageObjects() {
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/stingrey/external/chromedriver");
         driver = new ChromeDriver();
         hoversPage = new HoversPage(driver);
     }
@@ -28,9 +28,12 @@ public class HoversTest {
 
     @Test
     public void testHoversOnImages() {
+        //open Hovers Page
         hoversPage.goToHoversPage();
         for (int i = 1; i < 4; i++) {
+            //hover over each profile picture
             hoversPage.hoverOverProfilePics(i);
+            //assertion
             assertTrue(hoversPage.isUsernamePresent("user" + i, i - 1),
                     "username user" + i + " is not displayed!");
         }
