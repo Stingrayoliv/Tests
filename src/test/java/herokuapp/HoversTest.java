@@ -15,7 +15,7 @@ public class HoversTest {
 
     @BeforeEach
     public void initPageObjects() {
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/stingrey/external/chromedriver");
         driver = new ChromeDriver();
         hoversPage = new HoversPage(driver);
     }
