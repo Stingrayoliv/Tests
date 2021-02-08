@@ -9,7 +9,7 @@ Project has a test class which represents the following scenario:
 
 Hovers page: 
 
-⋅⋅* hover each avatar and verify username text appeared underneath
+⋅⋅*hover each avatar and verify username text appeared underneath
 ⋅⋅* Prerequisites Software/Tools
 ⋅⋅* Java Development Kit (Java 8)
 ⋅⋅* Java Runtime Environment
